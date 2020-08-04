@@ -1,0 +1,13 @@
+name: StickKick
+main: stickkick.StickKickMain
+version: "1.0"
+commands:
+  stickkick:
+    description: StickKick.
+    usage: /<command> <help>
+  stkick:
+    description: StickKick.
+    usage: /<command> <help>
+  stk:
+    description: StickKick.
+    usage: /<command> <help>
