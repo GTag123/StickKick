@@ -1,4 +1,4 @@
-package stickkick;
+package ga.garifullin.stickkick;
 
 public class Actions {
     public static final String KICK = "kick";

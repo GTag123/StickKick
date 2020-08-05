@@ -4,3 +4,5 @@ To use:
 - ```/stickkick help```
 - ```/stkick help```
 - ```/stk help```
+
+Permissions: `ga.garifullin.skickkick.use`
