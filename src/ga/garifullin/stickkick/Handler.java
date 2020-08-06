@@ -24,6 +24,12 @@ public class Handler implements Listener {
                 Player daun = (Player) entity;
                 String itemlore = ItemHandler.checkItemAndReturnLore(punisher.getInventory().getItemInMainHand());
                 if( !(itemlore.equals("none")) && punisher.hasPermission("ga.garifullin.stickkick.use")){
+
+                    if (daun.getName().equals(punisher.getName())) {
+                        punisher.sendMessage(ChatColor.GOLD + "Не используй на себе!");
+                        return;
+                    }
+                    
                     e.setCancelled(true);
                     switch (itemlore) {
                         case Actions.KICK:
