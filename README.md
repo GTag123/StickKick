@@ -5,7 +5,7 @@ To use:
 - ```/stkick help```
 - ```/stk help```
 
-#####Permissions: 
+### Permissions: 
 - `ga.garifullin.skickkick.create` - use /stickkick command and create item
 - `ga.garifullin.skickkick.use` - use item
 - `ga.garifullin.skickkick.*` - use all features
