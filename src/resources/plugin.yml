@@ -5,9 +5,16 @@ commands:
   stickkick:
     description: StickKick.
     usage: /<command> help
-  stkick:
-    description: StickKick.
-    usage: /<command> help
-  stk:
-    description: StickKick.
-    usage: /<command> help
+    aliases: [stkick, stk]
+    permission: ga.garifullin.stickkick.create
+    permission-message: You do not have 'ga.garifullin.skickkick.create' permission to use this command.
+permissions:
+  ga.garifullin.stickkick.*:
+    description: Gives access to all StickKick features
+    children:
+      ga.garifullin.stickkick.use: true
+      ga.garifullin.stickkick.create: true
+  ga.garifullin.stickkick.use:
+    description: StickKick item use permission
+  ga.garifullin.stickkick.create:
+    description: StickKick item create permission

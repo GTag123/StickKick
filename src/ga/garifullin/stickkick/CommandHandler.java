@@ -13,8 +13,8 @@ public class CommandHandler implements  CommandExecutor{
     private static final String mainCmd = "/stickkick";
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String cmdName, String[] args) {
-        if(!sender.hasPermission("ga.garifullin.skickkick.use")){
-            sender.sendMessage("You dont have permission!");
+        if(!sender.hasPermission("ga.garifullin.stickkick.create")){
+            sender.sendMessage("You dont have permission to use this command!");
             return true;
         }
         if (args.length == 0){
